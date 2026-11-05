@@ -1,0 +1,22 @@
+name: Feature with acceptance criteria
+description: Specification-first implementation request
+title: 'feat: '
+labels: ['enhancement']
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and goal
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptance criteria
+      description: State observable, testable outcomes.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints and risks
