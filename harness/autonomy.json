@@ -1,0 +1,19 @@
+{
+  "version": "0.1.0",
+  "default_mode": "read_only",
+  "permissions": {
+    "research": "allowed",
+    "planning": "allowed",
+    "local_changes": "approval_required",
+    "pull_request": "approval_required",
+    "merge": "approval_required",
+    "deployment": "approval_required",
+    "paid_api_calls": "denied",
+    "secrets_access": "denied"
+  },
+  "verification": {
+    "tests_required": true,
+    "human_review_required": true,
+    "evidence_required": true
+  }
+}
